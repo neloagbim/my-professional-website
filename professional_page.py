@@ -27,8 +27,13 @@ with right:
   st.header("About me")
   st.write( '''I'm an analyst with a passion for helping people through data.
   I am particularly interested in Clean Energy and creating a more equitable world.''')
+  
+  # add container and header for projects
   st.subheader("Portfolio Projects")
-  st.container("Put drop down for portfolio projects.")
+  with st.container():
+    st.write("Put drop down for portfolio projects.")
+  # add another container below it for Research
   st.subheader("Research and Publications")
-  st.container("Put research and Publications")
+  with st.container():
+    st.write("Put research and Publications")
 
