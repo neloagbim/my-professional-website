@@ -11,6 +11,7 @@ import streamlit as st
 col1,col2 = st.columns([0.3,0.7])
 with col1:
   st.text("put your picture here.")
+  st.image("https://github.com/neloagbim/my-professional-website/blob/a1b650c4f4fab256fed35f182a21d2f2b7828595/linkedin_photo.png")
 with col2:
   st.title("Chinelo Agbim's Porfolio")
   st.header("About me")
