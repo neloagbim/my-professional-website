@@ -7,7 +7,6 @@ Created on Wed Jan 10 15:15:48 2024
 
 import pandas as pd
 import streamlit as st
-import pyodbc
 
 
 st.title("Chinelo Agbim's Porfolio")
