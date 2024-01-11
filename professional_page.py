@@ -10,7 +10,7 @@ import streamlit as st
 
 col1,col2 = st.columns([0.3,0.7])
 with col1:
-  st.text("blahhh blahh blahh")
+  st.text("put your picture here.")
 with col2:
   st.title("Chinelo Agbim's Porfolio")
   st.header("About me")
