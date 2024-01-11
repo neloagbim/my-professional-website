@@ -14,6 +14,7 @@ st.set_page_config(layout="wide")
 # create 2 columns on the page
 left,right = st.columns([0.25,0.75], gap="medium")
 
+# left column of page
 with left:
   #linkedin pic in a container
   pic_container = st.container(border=True)
@@ -22,6 +23,7 @@ with left:
   # hyperlink to linkedin profile
   st.write("[LinkedIn Profile](https://www.linkedin.com/in/chinelo-agbim-15b50a7a/)")
   st.write("Put link to resume here")
+# right column of the page
 with right:
   st.title("Chinelo Agbim's Portfolio")
   st.header("About me")
@@ -37,7 +39,11 @@ with right:
   # add container and header for projects
   st.subheader("Portfolio Projects")
   with st.container():
-    st.write("Put drop down for portfolio projects.")
+    # split container into 4 columns for each project
+    col1,col2,col3,col4 = st.columns([0.25,0.25,0.25,0.25])
+    with col1:
+      st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
+      st.write("Skills: python, json manipulation, google sheet api, python")
   # add another container below it for Research
   st.subheader("Research and Publications")
   with st.container():
