@@ -19,8 +19,11 @@ with left:
   with pic_container:
     st.image("./data/linkedin_photo.png")
   st.write("[LinkedIn Profile](https://www.linkedin.com/in/chinelo-agbim-15b50a7a/)")
+  st.write("Put link to resume here")
 with right:
   st.title("Chinelo Agbim's Porfolio")
   st.header("About me")
   st.write( '''I'm an analyst with a passion for helping people through data.
   I am particularly interested in Clean Energy and creating a more equitable world.''')
+  st.expander("Put drop down for research and publications.")
+  st.expander("Put drop down for portfolio projects.")
