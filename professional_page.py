@@ -8,7 +8,11 @@ Created on Wed Jan 10 15:15:48 2024
 import pandas as pd
 import streamlit as st
 
-col1,col2 = st.columns([0.3,0.7])
+#set page to wide configuration -- this way it takes up the whole page
+st.set_page_config(layout="wide")
+
+# create 2 columns on the page
+col1,col2 = st.columns([0.25,0.75])
 with col1:
   st.text("put your picture here.")
   st.image("./data/linkedin_photo.png")
