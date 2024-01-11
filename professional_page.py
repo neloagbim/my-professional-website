@@ -23,10 +23,15 @@ with left:
   st.write("[LinkedIn Profile](https://www.linkedin.com/in/chinelo-agbim-15b50a7a/)")
   st.write("Put link to resume here")
 with right:
-  st.title("Chinelo Agbim's Porfolio")
+  st.title("Chinelo Agbim's Portfolio")
   st.header("About me")
-  st.write( '''I'm an analyst with a passion for helping people through data.
-  I am particularly interested in Clean Energy and creating a more equitable world.''')
+  st.write( '''Hey there! My name is Chinelo, but my friends call me Nelo. I'm an analyst with a passion for 
+  helping people and using data as a tool to do so. I recieved my B.S. in Civil Engineering, M.S. Energy Resources, and a Master's in Public Policy. More recently,
+  I've worked for some lovely Clean Energy Tech companies in data analytics and management roles where I played a critical role in helping them do what they do best: 
+  accelerate the clean energy transition. I've also done consulting working supporting big and small companies data accessebility and decision making
+  through the power of dashboarding and data modeling.
+  Check out some of the work I've done in my spare time below:
+  .''')
   
   # add container and header for projects
   st.subheader("Portfolio Projects")
