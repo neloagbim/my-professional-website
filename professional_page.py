@@ -8,7 +8,7 @@ Created on Wed Jan 10 15:15:48 2024
 import pandas as pd
 import streamlit as st
 
-col1,col2 = st.columns([1,4])
+col1,col2 = st.columns([0.3,0.7])
 with col1:
   st.text("blahhh blahh blahh")
 with col2:
