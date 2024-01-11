@@ -31,7 +31,7 @@ with right:
   helping people and using data as a tool to do so. I recieved my B.S. in Civil Engineering, M.S. in Energy Resources, and a Master's in Public Policy. During my studies at UIUC and
   UT Austin, I did a lot of research on ways to ensure the energy transition is more equitable. More recently,
   I've worked for some lovely Clean Energy Tech companies in data analytics and management roles where I played a critical role in helping them do what they do best: 
-  accelerate the clean energy transition. I've also done consulting working supporting companies improve data accessebility and decision making
+  accelerate the clean energy transition. I've also done analytics consulting where I've improved data accessebility and decision making for clients
   through the power of visualization and data modeling.
   Check out some of my publications and side projects below:
   ''')
