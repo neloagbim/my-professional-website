@@ -11,4 +11,4 @@ import streamlit as st
 
 st.title("Chinelo Agbim's Porfolio")
 st.header("About me")
-st.text("I'm an analyst with a passion for helping people through data. n/ I am particularly interested in Clean Energy and creating a more equitable world.")
+st.text("I'm an analyst with a passion for helping people through data. I am particularly interested in Clean Energy and creating a more equitable world.")
