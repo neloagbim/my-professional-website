@@ -43,7 +43,7 @@ with right:
     col1,col2,col3,col4 = st.columns([0.25,0.25,0.25,0.25])
     with col1:
       st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
-      st.write("Skills: python, json manipulation, google sheet api, python")
+      st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api, python")
   # add another container below it for Research
   st.subheader("Research and Publications")
   with st.container():
