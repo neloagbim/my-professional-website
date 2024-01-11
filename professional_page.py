@@ -31,7 +31,7 @@ with right:
   I've worked for some lovely Clean Energy Tech companies in data analytics and management roles where I played a critical role in helping them do what they do best: 
   accelerate the clean energy transition. I've also done consulting working supporting companies improve data accessebility and decision making
   through the power of visualization and data modeling.
-  Check out some of the publications and side projects below:
+  Check out some of my publications and side projects below:
   ''')
   
   # add container and header for projects
