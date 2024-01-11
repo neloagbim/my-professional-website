@@ -22,7 +22,7 @@ with left:
     st.image("./data/linkedin_photo.png")
   # hyperlink to linkedin profile
   st.write("[LinkedIn Profile](https://www.linkedin.com/in/chinelo-agbim-15b50a7a/)")
-  st.write("Put link to resume here")
+  st.write("[Request copy of my resume](https://drive.google.com/file/d/1h5XbDWqymzrqaqO9qni8VXJtIH9j0xjB/view?usp=drive_link)") 
 # right column of the page
 with right:
   st.title("Chinelo Agbim's Portfolio")
