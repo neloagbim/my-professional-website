@@ -42,7 +42,8 @@ with right:
     # split container into 4 columns for each project
     col1,col2,col3,col4 = st.columns([0.25,0.25,0.25,0.25])
     with col1:
-      st.write("Link to USDA project")
+      st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
+      st.write("Skills: python, json manipulation, google sheet api, python")
   # add another container below it for Research
   st.subheader("Research and Publications")
   with st.container():
