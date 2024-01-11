@@ -14,8 +14,11 @@ st.set_page_config(layout="wide")
 # create 2 columns on the page
 left,right = st.columns([0.25,0.75], gap="medium")
 
+# linkedin url
+linkedin= "https://www.linkedin.com/in/chinelo-agbim-15b50a7a/"
 with left:
   st.image("./data/linkedin_photo.png")
+  st.write("[LinkedIn Profile] (%s)" %linkedin)
 with right:
   st.title("Chinelo Agbim's Porfolio")
   st.header("About me")
