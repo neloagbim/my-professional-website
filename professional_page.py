@@ -12,11 +12,11 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 # create 2 columns on the page
-col1,col2 = st.columns([0.25,0.75])
-with col1:
-  st.text("put your picture here.")
+left,right = st.columns([0.25,0.75], gap="medium")
+
+with left:
   st.image("./data/linkedin_photo.png")
-with col2:
+with right:
   st.title("Chinelo Agbim's Porfolio")
   st.header("About me")
   st.write( '''I'm an analyst with a passion for helping people through data.
