@@ -57,4 +57,7 @@ with right:
     with col6:
       st.write("[Co-author - White Paper - UT Austin Energy Institute 2017](https://energy.utexas.edu/sites/default/files/UTAustin_FCe_UtilityBusModels_2017.pdf)")
       st.image("./data/electricity.png",caption = "Skills: distrubted energy, energy policy, utilities, writing")
+    with col7:
+      st.write("[Community Solar Brief - Greenlining Institute 2017](https://drive.google.com/file/d/1bdT-kpOx0ZLYFFv4I8cDYT1KasaAuhB0/view?usp=drive_link)")
+      st.image("./data/electricity.png",caption = "Skills: distrubted energy, energy policy, energy equity, communication")
 
