@@ -41,11 +41,17 @@ with right:
   with st.container():
     # split container into 4 columns for each project
     col1,col2,col3,col4 = st.columns([0.25,0.25,0.25,0.25])
+    # col1 - USDA project
     with col1:
       st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
       st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api, python")
   # add another container below it for Research
   st.subheader("Research and Publications")
   with st.container():
-    st.write("Put research and Publications")
+    # split container into 4 columns for each project
+    col5,col6,col7,col8 = st.columns([0.25,0.25,0.25,0.25])
+    # col5 - energy policy publication
+    with col5:
+      st.write("[1st Author Publication - Energy Policy 2020](https://www.sciencedirect.com/science/article/abs/pii/S0301421520303529)")
+      st.image("./data/electricity.png", caption="Skills: logistic regression, research, literature review, writing")
 
