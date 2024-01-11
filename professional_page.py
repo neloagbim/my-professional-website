@@ -29,6 +29,6 @@ with right:
   I am particularly interested in Clean Energy and creating a more equitable world.''')
   st.subheader("Portfolio Projects")
   st.container("Put drop down for portfolio projects.")
-  st.subheader("Research and Publications"
+  st.subheader("Research and Publications")
   st.container("Put research and Publications")
 
