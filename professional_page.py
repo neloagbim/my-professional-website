@@ -9,6 +9,8 @@ import pandas as pd
 import streamlit as st
 
 col1,col2 = st.columns([1,4])
+with col1:
+  st.text("blahhh blahh blahh")
 with col2:
   st.title("Chinelo Agbim's Porfolio")
   st.header("About me")
