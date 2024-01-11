@@ -14,5 +14,5 @@ with col1:
 with col2:
   st.title("Chinelo Agbim's Porfolio")
   st.header("About me")
-  st.write( '"I'm an analyst with a passion for helping people through data.
-  I am particularly interested in Clean Energy and creating a more equitable world.'")
+  st.write( '''I'm an analyst with a passion for helping people through data.
+  I am particularly interested in Clean Energy and creating a more equitable world.''')
