@@ -45,7 +45,7 @@ with right:
     # col1 - USDA project
     with col1:
       st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
-      st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api, python")
+      st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api")
   # add another container below it for Research
   st.subheader("Research and Publications")
   with st.container():
