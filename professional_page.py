@@ -54,7 +54,7 @@ with right:
     # col5 - energy policy publication
     with col5:
       st.write("[1st Author Publication - Energy Policy 2020](https://www.sciencedirect.com/science/article/abs/pii/S0301421520303529)")
-      st.image("./data/electricity.png", caption="Skills: logistic regression, research, energy policy, writing")
+      st.image("./data/electricity.png", caption="Skills: logistic regression, chi-squared, research, energy policy, writing")
     with col6:
       st.write("[Co-author - White Paper - UT Austin Energy Institute 2017](https://energy.utexas.edu/sites/default/files/UTAustin_FCe_UtilityBusModels_2017.pdf)")
       st.image("./data/electricity.png",caption = "Skills: distrubted energy, energy policy, utilities, writing")
