@@ -46,6 +46,9 @@ with right:
     with col1:
       st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
       st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api")
+    with col2
+      st.write("[EIA Mass Download and Store in Postgresql](https://github.com/neloagbim/eia-860-data-summary)")
+      st.image("./data/eia.png", caption = "Skills: python, webscrape, sqlalchemy, postgresql")
   # add another container below it for Research
   st.subheader("Research and Publications")
   with st.container():
