@@ -17,9 +17,9 @@ left,right = st.columns([0.25,0.75], gap="medium")
 # left column of page
 with left:
   #linkedin pic in a container
-  pic_container = st.container(border=True)
+  #pic_container = st.container(border=True)
   #with pic_container:
-   # st.image("./data/linkedin_photo.png")
+    #st.image("./data/linkedin_photo.png")
   # hyperlink to linkedin profile, github, ..etc. not in same container as pic
   st.write("[LinkedIn Profile](https://www.linkedin.com/in/chinelo-agbim-15b50a7a/)")
   st.write("[GitHub](https://github.com/neloagbim)")
@@ -45,7 +45,7 @@ with right:
     # col1 - USDA project
     with col1:
       st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
-      st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api")
+      #st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api")
   # add another container below it for Research
   st.subheader("Research and Publications")
   with st.container():
@@ -57,8 +57,8 @@ with right:
       st.image("./data/electricity.png", caption="Skills: logistic regression, chi-squared, research, energy policy, writing")
     with col6:
       st.write("[Co-author - White Paper - UT Austin Energy Institute 2017](https://energy.utexas.edu/sites/default/files/UTAustin_FCe_UtilityBusModels_2017.pdf)")
-      st.image("./data/electricity.png",caption = "Skills: distrubted energy, energy policy, utilities, writing")
+      #st.image("./data/electricity.png",caption = "Skills: distrubted energy, energy policy, utilities, writing")
     with col7:
       st.write("[Community Solar Brief - Greenlining Institute 2017](https://drive.google.com/file/d/1bdT-kpOx0ZLYFFv4I8cDYT1KasaAuhB0/view?usp=drive_link)")
-      st.image("./data/electricity.png",caption = "Skills: distrubted energy, energy policy, energy equity, communication")
+      #st.image("./data/electricity.png",caption = "Skills: distrubted energy, energy policy, energy equity, communication")
 
