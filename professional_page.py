@@ -16,7 +16,7 @@ left,right = st.columns([0.25,0.75], gap="medium")
 
 # left column of page
 with left:
-  left.markdown("[![Title]('./data/LI-Logo.png')]('https://www.linkedin.com/in/chinelo-agbim-15b50a7a/')")
+  left.markdown("[![Title]('https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg')]('https://www.linkedin.com/in/chinelo-agbim-15b50a7a/')")
   #linkedin pic in a container
   pic_container = st.container(border=True)
   with pic_container:
