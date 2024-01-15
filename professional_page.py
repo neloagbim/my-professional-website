@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 
 #set page to wide configuration -- this way it takes up the whole page
-st.set_page_config(layout="wide", page_icon = '👨‍💻')
+st.set_page_config(layout="wide")
 
 # create 2 columns on the page
 left,right = st.columns([0.25,0.75], gap="medium")
