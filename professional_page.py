@@ -18,8 +18,8 @@ left,right = st.columns([0.25,0.75], gap="medium")
 with left:
   #linkedin pic in a container
   pic_container = st.container(border=True)
-  with pic_container:
-    st.image("./data/linkedin_photo.png")
+  #with pic_container:
+   # st.image("./data/linkedin_photo.png")
   # hyperlink to linkedin profile, github, ..etc. not in same container as pic
   st.write("[LinkedIn Profile](https://www.linkedin.com/in/chinelo-agbim-15b50a7a/)")
   st.write("[GitHub](https://github.com/neloagbim)")
