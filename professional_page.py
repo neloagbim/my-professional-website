@@ -48,6 +48,7 @@ with right:
       st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api")
     with col2:
       st.write("[EIA 860 Postgresql Upload](https://github.com/neloagbim/eia-860-data-summary)")
+      st.write(''' [Refactor In Progress]''')
       st.image("./data/eia.png", caption = "Skills: python, webscrape, sqlalchemy, postgresql")
   # add another container below it for Research
   st.subheader("Research and Publications")
