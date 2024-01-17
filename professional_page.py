@@ -44,10 +44,10 @@ with right:
     col1,col2,col3,col4 = st.columns([0.25,0.25,0.25,0.25])
     # col1 - USDA project
     with col1:
-      st.write("[USDA Open Dataset Summary](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
+      st.write("[USDA Open Datasets - Download JSON and Format as Google Sheet](https://github.com/neloagbim/usda-data-summary/blob/main/README.md)")
       st.image("./data/usda.png", caption= "Skills: python, json manipulation, google sheet api")
     with col2:
-      st.write("[EIA 860 Postgresql Upload](https://github.com/neloagbim/eia-860-data-summary)")
+      st.write("[EIA 860 Download and Postgresql Upload](https://github.com/neloagbim/eia-860-data-summary)")
       st.write(''' [Refactor In Progress]''')
       st.image("./data/eia.png", caption = "Skills: python, webscrape, sqlalchemy, postgresql")
   # add another container below it for Research
