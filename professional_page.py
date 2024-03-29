@@ -26,7 +26,7 @@ with left:
   st.write("[Request copy of my resume](https://drive.google.com/file/d/1h5XbDWqymzrqaqO9qni8VXJtIH9j0xjB/view?usp=drive_link)") 
 # right column of the page
 with right:
-  st.title("Chinelo Agbim's (Nelo) Portfolio")
+  st.title("Chinelo (Nelo) Agbim's  Portfolio")
   st.header("About me")
   st.write( '''Hey there!  I'm an analyst with a passion for helping people and using data as a tool to do so. 
   I received my B.S. in Civil Engineering, M.S. in Energy Resources, and a Master's in Public Policy. During my studies at UIUC and
